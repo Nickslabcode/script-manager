@@ -1,0 +1,15 @@
+{
+  // Turn on format on save for this workspace
+  "editor.formatOnSave": true,
+
+  // Prettier settings
+  "prettier.useEditorConfig": true,
+  "prettier.requireConfig": true,
+  "prettier.configPath": ".prettierrc",
+  "[javascript][typescript][typescriptreact][json][jsonc][yaml][yml][markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Turn off unknown @ rules for CSS
+  "css.lint.unknownAtRules": "ignore"
+}
